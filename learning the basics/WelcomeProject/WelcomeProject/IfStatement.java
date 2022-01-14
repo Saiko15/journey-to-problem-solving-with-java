@@ -40,7 +40,7 @@ public class IfStatement {
 
         // ###############
 
-        if (a >= 90 && a <= 100) // multi way statement , Anding & Oring
+        if (a >= 90 && a <= 100) // multi way statement , Anding & Oring.
             System.out.println("A");
         else if (a >= 80 && a <= 90)
             System.out.println("B");
