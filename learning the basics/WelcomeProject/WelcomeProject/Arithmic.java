@@ -17,5 +17,15 @@ public class Arithmic {
         System.out.println(i); // 10 
         System.out.println(++i); // 11
 
+        // =	a = b;	a = b;
+        // +=	a += b;	a = a + b;
+        // -=	a -= b;	a = a - b;
+        // *=	a *= b;	a = a * b;
+        // /=	a /= b;	a = a / b;
+        // %=	a %= b;	a = a % b;
+        int j = 4;
+        System.out.println(j += 6); // j + 6 = 10
+        System.out.println(j *= 4); // j * 4 = 40
+
     }
 }
