@@ -15,10 +15,25 @@ public class IfStatement {
         else
             System.out.println("Odd number");
 
+        // #################        
+
         if (a > 0)
         {                 //  compound statement
             System.out.println("Positive number");
             System.out.println("try another number");
+        }
+        else
+            System.out.println("Negative number");
+
+        // ###############
+
+        if (a > 0)           //  nested if
+        {       
+            System.out.println("Positive number");
+            if ( a % 2 ==0)
+                System.out.println("Even number");
+            else 
+                System.out.println("Odd number");
         }
         else
             System.out.println("Negative number");
