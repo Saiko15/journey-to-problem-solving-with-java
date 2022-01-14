@@ -10,10 +10,18 @@ public class IfStatement {
         System.out.println("type a number");
         a = number.nextInt();
 
-        if (a % 2 ==0)
+        if (a % 2 ==0) // one statement
             System.out.println("Even number");
         else
             System.out.println("Odd number");
+
+        if (a > 0)
+        {                 //  compound statement
+            System.out.println("Positive number");
+            System.out.println("try another number");
+        }
+        else
+            System.out.println("Negative number");
     }
     
 }
