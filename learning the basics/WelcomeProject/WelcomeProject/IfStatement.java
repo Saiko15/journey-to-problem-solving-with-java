@@ -37,6 +37,13 @@ public class IfStatement {
         }
         else
             System.out.println("Negative number");
+
+        // ###############
+
+        if (a >= 90 && a <= 100) // multi way statement , Anding & Oring
+            System.out.println("A")
+        else if
+            System.out.println("A")
     }
     
 }
