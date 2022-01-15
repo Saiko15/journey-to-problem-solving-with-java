@@ -17,11 +17,24 @@ public class Switch {
         switch (choice)
         {
             case 1:
-            System.out.println("1. Enter two number");
-            num1 = reader.nextInt();
-            num2 = reader.nextInt();
-            System.out.println(num1 + num2);
-            break;
+                System.out.println("1. Enter two number");
+                num1 = reader.nextInt();
+                num2 = reader.nextInt();
+                System.out.println(num1 + num2);
+                break;
+            case 2:
+                System.out.println("1. Enter two number");
+                num1 = reader.nextInt();
+                num2 = reader.nextInt();
+                System.out.println(num1 - num2);
+                break;
+            case 3:
+                System.out.println("1. Enter number");
+                num1 = reader.nextInt();
+                System.out.println(num1 * num1);
+                break;
+            default:
+                System.out.println("Invalid Choice");
         }
 
 
