@@ -4,7 +4,21 @@ import java.util.Scanner;
 
 public class Switch {
     public static void main(String[] args) {
+        char letter;
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a letter:");
+        letter = reader.next().charAt(0);
 
+        switch (letter)
+        {
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u': System.out.println("This is a vowel");
+        }
+        
+        /*
         int choice, num1, num2;
         Scanner reader = new Scanner(System.in);
         
@@ -37,7 +51,7 @@ public class Switch {
                 System.out.println("Invalid Choice");
         }
 
-
+        */
 
         /*
         char grade;
