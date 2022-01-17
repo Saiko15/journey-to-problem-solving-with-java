@@ -4,25 +4,41 @@ package WelcomeProject;
 public class Flag {
     public static void main(String[] args) {
       // it needs some mathematical maintainance  
-      int guess = 50, rand;
-      rand = (int)(Math.random()*100); // int because random generates douples, *100 because it'll from 0 to 1
+      int guess = 50, rand = 88;
+      //rand = (int)(Math.random()*100); // int because random generates douples, *100 because it'll from 0 to 1
       System.out.println("the random number is: "+ rand);
     
       boolean stillplaying = true;
 
       while (stillplaying== true)
       {
-          System.out.println("I guessed" +guess+ ". Is it true?");
+          System.out.println("I guessed " +guess+ ". Is it true?");
 
           if (guess > rand)
           {
-            System.out.println("No, your guess is too large");
+            System.out.println("No, " +guess+ " is too large");
             guess = 25;
           }
           else if (guess < rand)
           {
-            System.out.println("No, your guess is too small");
+            System.out.println("No," +guess+ " is too small");
             guess = 75;
+            System.out.println("I guessed " +guess+ ". Is it true?");
+
+            if (guess < rand)
+            {
+              System.out.println("No," +guess+ " is too small");
+              guess= 87;
+              System.out.println("I guessed " +guess+ ". Is it true?");
+
+              if (guess < rand)
+              {
+                System.out.println("No," +guess+ " is too small");
+                guess++;
+              }
+
+
+            }
           }
           else 
           {
