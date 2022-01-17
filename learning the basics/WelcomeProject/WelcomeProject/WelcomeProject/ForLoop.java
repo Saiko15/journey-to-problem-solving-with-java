@@ -5,16 +5,40 @@ import java.util.Scanner;
 public class ForLoop {
     public static void main(String[] args) {
 
-        int number, factorial=1;
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter a number that you want its factorial");
 
-        number = input.nextInt();
-        for (int i=1; i<=number;i++)
+        
+        int number; // if factorial was here, it will multiple with the before number so it should be inside.
+        Scanner input = new Scanner(System.in);
+        for (int j=1;j<=5;j++)
         {
-            factorial *= i;
+            System.out.println("Enter a number that you want its factorial");
+            int factorial=1;
+            number = input.nextInt();
+            for (int i=1; i<=number;i++)
+            {
+                factorial *= i;
+            }
+            System.out.println("Factorial is : " + factorial);
         }
-        System.out.println("Factorial is : " + factorial);
+
+
+
+
+
+
+
+
+
+        // int number, factorial=1;
+        // Scanner input = new Scanner(System.in);
+        // System.out.println("Enter a number that you want its factorial");
+
+        // number = input.nextInt();
+        // for (int i=1; i<=number;i++)
+        // {
+        //     factorial *= i;
+        // }
+        // System.out.println("Factorial is : " + factorial);
 
 
 
