@@ -5,6 +5,34 @@ import java.util.Scanner;
 public class Flag {
     public static void main(String[] args) {
         
+        int guess, rand;
+        guess = (int)(Math.random()*100); // int because random generates douples, *100 because it'll from 0 to 1
+        boolean stillplaying = false;
+
+        
+        Scanner input= new Scanner(System.in);
+
+        System.out.println("What is your random number?");
+        rand = input.nextInt();
+
+        while (stillplaying == true)
+        {
+            System.out.println("the random number is: "+ guess);
+            if (guess > rand)
+                System.out.println("Guess is too large");
+            else if (guess < rand)
+                System.out.println("Guess is too small");
+            else 
+            {
+                System.out.println("You win!");
+                stillplaying = false;
+            }
+
+        }
+      
+      
+      
+        /*  
       int guess, rand;
       rand = (int)(Math.random()*100); // int because random generates douples, *100 because it'll from 0 to 1
       System.out.println("the random number is: "+ rand);
@@ -26,7 +54,8 @@ public class Flag {
             System.out.println("You win!");
             stillplaying = false;
           }
-      }
+          */
+      
 
       
       
