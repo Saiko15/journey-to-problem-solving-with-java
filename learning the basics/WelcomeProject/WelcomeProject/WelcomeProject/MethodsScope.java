@@ -17,7 +17,7 @@ public class MethodsScope {
 
         larger(1  , 2); // larger int
         larger('A', 'B'); // larger char
-
+        larger(1, 2 , 3); // larger with three int
         
     }
     public static int sum(int a, int b, int c){
@@ -37,5 +37,10 @@ public class MethodsScope {
     public static char larger(char a, char b){
         if (a>b) return a;
         else return b;
+    }
+    public static int larger(int a, int b, int c){
+        if (a>b&&a>c) return a;
+        else if (b>a&&b>c) return b;
+        else return c;
     }
 }
