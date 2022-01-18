@@ -14,6 +14,10 @@ public class MethodsScope {
         total = sum(num1, num2, num3);
         avg = average(num1, num2, num3);
         display(total, avg);
+
+        larger(1  , 2); // larger int
+        larger('A', 'B'); // larger char
+
         
     }
     public static int sum(int a, int b, int c){
@@ -26,5 +30,12 @@ public class MethodsScope {
         System.out.println("the sum is "+ t);
         System.out.println("the average is "+ a);
     }
-    
+    public static int larger(int a, int b){
+        if (a>b) return a;
+        else return b;
+    }
+    public static char larger(char a, char b){
+        if (a>b) return a;
+        else return b;
+    }
 }
