@@ -20,4 +20,8 @@ public class Rectangle {
     {
         return width;
     }
+    public double getarea()
+    {
+        return length*width;
+    }
 }
