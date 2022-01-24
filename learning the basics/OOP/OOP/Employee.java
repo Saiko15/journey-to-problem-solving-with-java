@@ -21,6 +21,11 @@ public class Employee {
         emp_id = id;
         emp_name = name; // cannot be name = emp_name
     }
+    public Employee(int id, String name, boolean res)
+    {
+        this(id, name);
+        residant = res;
+    }
 
     public void print_emp ()
     {
