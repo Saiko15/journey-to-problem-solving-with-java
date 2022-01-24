@@ -16,6 +16,12 @@ public class Employee {
         residant = true;
     }
 
+    public Employee(int id, String name)
+    {
+        emp_id = id;
+        emp_name = name; // cannot be name = emp_name
+    }
+
     public void print_emp ()
     {
         System.out.println(emp_id);
