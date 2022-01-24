@@ -10,6 +10,8 @@ public class EmployeeObject {
         //em2.print_emp();
         Employee em3 = new Employee(20, "saiko", "IT", 5000, 800, false);
         em3.print_emp();
+        em3.set_salary(7000, 1000);
+        em3.print_emp();
 
     }
 }

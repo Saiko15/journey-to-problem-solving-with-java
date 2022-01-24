@@ -35,7 +35,15 @@ public class Employee {
         bonus = b; 
        
     }
-
+    public void set_salary(double s)
+    {
+        salary = s;
+    }
+    public void set_salary(double sal, double b)
+    {
+        this.set_salary(sal); // s not necessary 
+        bonus = b;
+    }
     public void print_emp ()
     {
         System.out.println(emp_id);
