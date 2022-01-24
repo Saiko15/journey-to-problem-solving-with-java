@@ -15,6 +15,7 @@ public class EmployeeObject {
         System.out.println(Employee.get_no_of_objects());
         System.out.println(Calc.add(6, 8)); // use it diriect without create objects every time (for utility classes like Math)
 
+        
 
     }
 }

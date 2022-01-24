@@ -12,5 +12,9 @@ public class OurFirstClass {
         Rectangle r2 = new Rectangle();
         r2.setlength(30);
         r2.setwidth(20); // Tab to get out paranthasses
+        Rectangle r3 = new Rectangle();
+        Rectangle r4 = new Rectangle(69, 58);
+        r3.modifyingobject(r4); // passing object to a method
+        System.out.println(r3.getlength());
     }
 }
