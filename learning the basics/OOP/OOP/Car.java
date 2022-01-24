@@ -6,11 +6,16 @@ public class Car {
     private int model;
 
     public Car ()                       // Constructor have the same name of the class
-{                                       // have no return type (not even void)
+    {                                       // have no return type (not even void)
         maker = "bmw";                  // may not return any values
         model = 2010;                   // are typically public 
         System.out.println("Hi"); 
 
+    }
+    public Car (String n, int y)      // Constructor Overloading
+    {
+        maker = n;
+        model = y;
     }
 
     public void setmaker (String m)

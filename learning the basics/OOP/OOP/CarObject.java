@@ -15,5 +15,9 @@ public class CarObject {
 
         System.out.println(maker); // null is "" // bmw because constructor
         System.out.println(year); // should be 0 but 2010 because of constructor
+
+        Car c2 = new Car("honda", 2009); // constructor overloading
+        System.out.println(c2.getmaker()); 
+        System.out.println(c2.getmodel());
     }
 }
