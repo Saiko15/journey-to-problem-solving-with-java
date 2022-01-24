@@ -12,7 +12,10 @@ public class Car {
     }
     public void setmodel (int year)
     {
+    if (year>1999) // not accept models under 2000 && also to not accept negative numbers
         model = year;
+    else
+        System.out.println("Invalid Model");
     }
     public String getmaker()
     {
