@@ -6,6 +6,15 @@ public class Employee {
     double salary;
     double bonus;
     boolean residant;
+    
+    public Employee()
+    {
+        emp_id = 100;
+        emp_name = "ah";
+        salary = 3000;
+        bonus = 500;
+        residant = true;
+    }
 
     public void print_emp ()
     {
