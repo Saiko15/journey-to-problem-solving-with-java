@@ -13,7 +13,7 @@ public class CarObject {
         maker = c1.getmaker();
         year = c1.getmodel();
 
-        System.out.println(maker); // null is ""
-        System.out.println(year);
+        System.out.println(maker); // null is "" // bmw because constructor
+        System.out.println(year); // should be 0 but 2010 because of constructor
     }
 }
