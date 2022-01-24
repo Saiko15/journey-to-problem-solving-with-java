@@ -15,6 +15,13 @@ public class Rectangle {
         length = 96;
         width = 98;
     }
+    public Rectangle add(Rectangle r)
+    {
+        Rectangle result = new Rectangle();
+        result.length = this.length + r.length;
+        result.width = this.width + r.width;
+        return result;
+    }
     public void setlength (double l) // Setter, Mutator
     {
         length = l;

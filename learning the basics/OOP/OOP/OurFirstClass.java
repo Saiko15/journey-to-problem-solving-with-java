@@ -16,5 +16,10 @@ public class OurFirstClass {
         Rectangle r4 = new Rectangle(69, 58);
         r3.modifyingobject(r4); // passing object to a method
         System.out.println(r3.getlength());
+        Rectangle r5 = new Rectangle(20, 30);
+        Rectangle r6 = new Rectangle(50, 60); 
+        r6.add(r5);
+        System.out.println(r6.getlength()); // 50
+        System.out.println(r6.add(r5).getlength());  // 70
     }
 }
