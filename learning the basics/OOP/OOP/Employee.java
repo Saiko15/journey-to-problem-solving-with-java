@@ -7,6 +7,7 @@ public class Employee {
     double salary;
     double bonus;
     boolean residant;
+    static int no_of_objects; // static to follow the class not instances
     
     public Employee()
     {
@@ -15,12 +16,14 @@ public class Employee {
         salary = 3000;
         bonus = 500;
         residant = true;
+        no_of_objects ++;
     }
 
     public Employee(int id, String name)
     {
         emp_id = id;
         emp_name = name; // cannot be name = emp_name
+        no_of_objects ++;
     }
     public Employee(int id, String name, boolean res)
     {
@@ -34,6 +37,10 @@ public class Employee {
         salary = s;
         bonus = b; 
        
+    }
+    public static int get_no_of_objects() // should be static as well
+    {
+        return no_of_objects;
     }
     public void set_salary(double s)
     {

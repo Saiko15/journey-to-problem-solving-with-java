@@ -12,6 +12,7 @@ public class EmployeeObject {
         em3.print_emp();
         em3.set_salary(7000, 1000);
         em3.print_emp();
+        System.out.println(Employee.get_no_of_objects());
 
     }
 }
