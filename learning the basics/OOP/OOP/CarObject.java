@@ -9,11 +9,11 @@ public class CarObject {
         
         bmw = new Car();
         bmw.setmaker("joe");
-        bmw.setmodel(1998);
+        bmw.setmodel(1998); // invalid model
         maker = bmw.getmaker();
         year = bmw.getmodel();
 
-        System.out.println(maker);
-        System.out.println(year);
+        // System.out.println(maker);
+        // System.out.println(year);
     }
 }
