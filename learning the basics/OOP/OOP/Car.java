@@ -8,7 +8,10 @@ public class Car {
 
     public void setmaker (String m)
     {
+    if(m == "bmw"|| m== "mercedes" || m== "audi")
         maker = m;
+    else
+        System.out.println("Invalid Maker");
     }
     public void setmodel (int year)
     {
