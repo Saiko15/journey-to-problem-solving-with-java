@@ -3,6 +3,7 @@ package OOP;
 public class Employee {
     int emp_id;
     String emp_name;
+    String department;
     double salary;
     double bonus;
     boolean residant;
@@ -23,8 +24,16 @@ public class Employee {
     }
     public Employee(int id, String name, boolean res)
     {
-        this(id, name);
+        this(id, name); // this refer to currrent object
         residant = res;
+    }
+    public Employee(int id, String name, String deprt, double s, double b, boolean res)
+    {
+        this(id, name, res);
+        department = deprt;
+        salary = s;
+        bonus = b; 
+       
     }
 
     public void print_emp ()
