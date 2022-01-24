@@ -1,10 +1,17 @@
 package OOP;
 
-import java.lang.module.ModuleFinder;
 
 public class Car {
     private String maker;
     private int model;
+
+    public Car ()                       // Constructor have the same name of the class
+{                                       // have no return type (not even void)
+        maker = "bmw";                  // may not return any values
+        model = 2010;                   // are typically public 
+        System.out.println("Hi"); 
+
+    }
 
     public void setmaker (String m)
     {
