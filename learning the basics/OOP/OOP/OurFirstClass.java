@@ -8,7 +8,7 @@ public class OurFirstClass {
         r1.setlength(3);
         r1.setwidth(6);
         System.out.println(r1.width); //  6.0
-        // #############
+
         Rectangle r2 = new Rectangle();
         r2.setlength(30);
         r2.setwidth(20); // Tab to get out paranthasses
