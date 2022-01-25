@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "projects",
-        "learning the basics/OOP"
+        "learning the basics/OOP",
+        "learning OOP/OOP"
     ]
 }
