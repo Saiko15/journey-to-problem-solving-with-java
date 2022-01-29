@@ -5,4 +5,5 @@ public class Student extends Person {
     // but final before method name prevent any other method to override it
     // Protected instead of public, able to acces by subclasses but not out of class (between private and public)
     // Abstract Class expect to be overriden and you can't take object from it.
+    // method also can be abstract
 }
