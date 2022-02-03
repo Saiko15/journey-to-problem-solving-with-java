@@ -6,4 +6,7 @@ public class Student extends Person {
     // Protected instead of public, able to acces by subclasses but not out of class (between private and public)
     // Abstract Class expect to be overriden and you can't take object from it.
     // method also can be abstract
+
+    // public Interface Retailitem {}
+    // public class CD implements Retailitem {}
 }
