@@ -9,4 +9,5 @@ public class Student extends Person {
 
     // public Interface Retailitem {}
     // public class CD implements Retailitem {}
+    // CD must have all methods in RetailItem
 }
