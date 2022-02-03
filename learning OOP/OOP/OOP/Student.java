@@ -12,7 +12,7 @@ public class Student extends Person {
     // CD must have all methods in RetailItem
     // Can't take object from Interface RetailItem but can from CD (class)
     // CD r1 = new CD();  (true)
-    // RetailItem r1 = new CD(); (true)
+    // RetailItem r1 = new CD(); (true) - r1 know methods in RetailItem only not all in CD
     // RetailItem r1 = new RetailItem(); (false)
     // one Class can Implements Multipe Interfaces
     // puplic class MyClass implements Inteface1, Inteface2, Inteface3
