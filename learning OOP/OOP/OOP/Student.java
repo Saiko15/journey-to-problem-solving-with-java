@@ -11,4 +11,7 @@ public class Student extends Person {
     // public class CD implements Retailitem {}
     // CD must have all methods in RetailItem
     // Can't take object from Interface RetailItem but can from CD (class)
+    // CD r1 = new CD();  (true)
+    // RetailItem r1 = new CD(); (true)
+    // RetailItem r1 = new RetailItem(); (false)
 }
