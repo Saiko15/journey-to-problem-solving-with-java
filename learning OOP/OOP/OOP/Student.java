@@ -14,4 +14,6 @@ public class Student extends Person {
     // CD r1 = new CD();  (true)
     // RetailItem r1 = new CD(); (true)
     // RetailItem r1 = new RetailItem(); (false)
+    // one Class can Implements Multipe Interfaces
+    // 
 }
