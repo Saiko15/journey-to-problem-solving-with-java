@@ -33,6 +33,10 @@ public class Student extends Person {
 
         }
         // can use multiple exception
-        
+        catch (Exception e)  // Exception is the general class and used for any exception 
+        {
+            System.out.println(e.getMessege());
+
+        }
     */
 }
