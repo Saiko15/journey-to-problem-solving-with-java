@@ -20,4 +20,18 @@ public class Student extends Person {
     // Gender stdGender;
     // stdgender = Gender.Male;
     // stdgender = "Female" XX
+    // enum methods (compareTo , equals , )
+    /* Handling Exception
+        try 
+        {
+            int x=10, y=0;
+            System.out.println(x/y);
+        }
+        catch (ArithmeticException e) 
+        {
+            System.out.println("error, cannot divied by zero");
+
+        }
+        
+    */
 }
