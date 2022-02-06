@@ -18,5 +18,5 @@ public class Student extends Person {
     // puplic class MyClass implements Inteface1, Inteface2, Inteface3
     // enum Gender = {Male, Female}
     // Gender stdGender;
-    // stdGender = Gender.Male;
+    // stdgender = Gender.Male;
 }
