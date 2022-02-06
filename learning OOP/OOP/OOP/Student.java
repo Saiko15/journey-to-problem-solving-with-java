@@ -1,5 +1,8 @@
 package OOP;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Student extends Person {  
     // use @override before overriding method from sub to super
     // but final before method name prevent any other method to override it
@@ -39,4 +42,14 @@ public class Student extends Person {
 
         }
     */
+    ArrayList<String> list = new ArrayList<String>(); // (10) is default
+    list.add("ahmed");
+    list.add("mohamed");
+    list.add("ali");
+
+    System.out.println(list.size);
+    System.out.println(list.remove(1));
+    System.out.println(list.get(2));
+    System.out.println(list);
+
 }
