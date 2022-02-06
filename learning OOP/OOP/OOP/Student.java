@@ -32,6 +32,7 @@ public class Student extends Person {
             System.out.println("error, cannot divied by zero");
 
         }
+        // can use multiple exception
         
     */
 }
