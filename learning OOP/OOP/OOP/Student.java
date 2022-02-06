@@ -48,9 +48,9 @@ public class Student extends Person {
     list.add("ali");
 
     System.out.println(list.size);
-    System.out.println(list.remove(1));
-    System.out.println(list.get(2));
+    list.remove(1)
     System.out.println(list);
+    System.out.println(list.get(2));
     list.add(1, "Saad");
     list.set(3, "ibrahem");
     System.out,println(list);
