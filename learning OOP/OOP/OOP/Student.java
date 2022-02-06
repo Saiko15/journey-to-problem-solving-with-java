@@ -42,6 +42,7 @@ public class Student extends Person {
 
         }
     */
+    /*
     ArrayList<String> list = new ArrayList<String>(); // (10) is default
     list.add("ahmed");
     list.add("mohamed");
@@ -54,6 +55,6 @@ public class Student extends Person {
     list.add(1, "Saad");
     list.set(3, "ibrahem");
     System.out,println(list);
-
+    */
 
 }
