@@ -51,5 +51,6 @@ public class Student extends Person {
     System.out.println(list.remove(1));
     System.out.println(list.get(2));
     System.out.println(list);
+    System.out,println(list.add(1, "Saad"))
 
 }
