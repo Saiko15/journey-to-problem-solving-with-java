@@ -19,4 +19,5 @@ public class Student extends Person {
     // enum Gender = {Male, Female}
     // Gender stdGender;
     // stdgender = Gender.Male;
+    // stdgender = "Female" XX
 }
